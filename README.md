@@ -1,2 +1,4 @@
 # CSS
-I am created css Animation with keyframes and Transitions.
+
+I created CSS Animation with keyframes and Transitions.
+Responsive Design HTML, CSS with Media Query
