@@ -1,0 +1,45 @@
+@keyframes example {
+    from{
+        background-color: red;
+        transform: scale(1);
+    }
+    to{
+        background-color: yellow;
+        transform: scale(2);
+
+    }
+}
+
+.animated-box{
+    width: 100px;
+    height: 100px;
+    animation: example 3s infinite;
+}
+
+.transition-box{
+    /* width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    transition: background-color 0.5s ease, transform 0.5s ease; */
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: background-color 0.5s ease, width 1s ease-in-out;
+}
+
+.transition-box:hover {
+    /* background-color: aquamarine; */
+    transform: rotate(45deg);
+    display: flex;
+    background-color: green;
+    width: 200px;
+}
+
+.box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
